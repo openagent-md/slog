@@ -21,7 +21,7 @@ import (
 	"golang.org/x/term"
 	"golang.org/x/xerrors"
 
-	"cdr.dev/slog/v3"
+	"dev.latticeruntime.com/slog/v3"
 )
 
 // StripTimestamp strips the timestamp from entry and returns

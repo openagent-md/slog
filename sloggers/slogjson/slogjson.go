@@ -8,14 +8,14 @@
 //	  "logger_names": ["comp", "subcomp"],
 //	  "msg": "hi",
 //	  "caller": "slog/examples_test.go:62",
-//	  "func": "cdr.dev/slog/v3/sloggers/slogtest_test.TestExampleTest",
+//	  "func": "dev.latticeruntime.com/slog/v3/sloggers/slogtest_test.TestExampleTest",
 //	  "trace": "<traceid>",
 //	  "span": "<spanid>",
 //	  "fields": {
 //	    "my_field": "field value"
 //	  }
 //	}
-package slogjson // import "cdr.dev/slog/v3/sloggers/slogjson"
+package slogjson // import "dev.latticeruntime.com/slog/v3/sloggers/slogjson"
 
 import (
 	"context"
@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"io"
 
-	"cdr.dev/slog/v3"
-	"cdr.dev/slog/v3/internal/syncwriter"
+	"dev.latticeruntime.com/slog/v3"
+	"dev.latticeruntime.com/slog/v3/internal/syncwriter"
 )
 
 // Sink creates a slog.Sink that writes JSON logs

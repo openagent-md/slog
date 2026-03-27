@@ -1,6 +1,6 @@
 // Package sloghuman contains the slogger
 // that writes logs in a human readable format.
-package sloghuman // import "cdr.dev/slog/v3/sloggers/sloghuman"
+package sloghuman // import "dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
 
 import (
 	"bytes"
@@ -8,9 +8,9 @@ import (
 	"io"
 	"sync"
 
-	"cdr.dev/slog/v3"
-	"cdr.dev/slog/v3/internal/entryhuman"
-	"cdr.dev/slog/v3/internal/syncwriter"
+	"dev.latticeruntime.com/slog/v3"
+	"dev.latticeruntime.com/slog/v3/internal/entryhuman"
+	"dev.latticeruntime.com/slog/v3/internal/syncwriter"
 )
 
 // Sink creates a slog.Sink that writes logs in a human

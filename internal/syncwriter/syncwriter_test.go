@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"cdr.dev/slog/v3/internal/assert"
+	"dev.latticeruntime.com/slog/v3/internal/assert"
 )
 
 type testWriter struct {

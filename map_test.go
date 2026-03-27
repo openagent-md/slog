@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"cdr.dev/slog/v3"
-	"cdr.dev/slog/v3/internal/assert"
+	"dev.latticeruntime.com/slog/v3"
+	"dev.latticeruntime.com/slog/v3/internal/assert"
 )
 
 var _, mapTestFile, _, _ = runtime.Caller(0)
@@ -62,12 +62,12 @@ func TestMap(t *testing.T) {
 			"error": [
 				{
 					"msg": "wrap1",
-					"fun": "cdr.dev/slog/v3_test.TestMap.func2",
+					"fun": "dev.latticeruntime.com/slog/v3_test.TestMap.func2",
 					"loc": "`+mapTestFile+`:42"
 				},
 				{
 					"msg": "wrap2",
-					"fun": "cdr.dev/slog/v3_test.TestMap.func2",
+					"fun": "dev.latticeruntime.com/slog/v3_test.TestMap.func2",
 					"loc": "`+mapTestFile+`:43"
 				},
 				"EOF"
@@ -93,7 +93,7 @@ func TestMap(t *testing.T) {
 				"error": [
 					{
 						"msg": "failed to marshal to JSON",
-						"fun": "cdr.dev/slog/v3.encodeJSON",
+						"fun": "dev.latticeruntime.com/slog/v3.encodeJSON",
 						"loc": "`+mapTestFile+`:140"
 					},
 					"json: error calling MarshalJSON for type slog_test.complexJSON: json: unsupported type: complex128"

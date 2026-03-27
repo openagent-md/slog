@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"cdr.dev/slog/v3"
-	"cdr.dev/slog/v3/sloggers/sloghuman"
-	"cdr.dev/slog/v3/sloggers/slogstackdriver"
-	"cdr.dev/slog/v3/sloggers/slogtest"
+	"dev.latticeruntime.com/slog/v3"
+	"dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
+	"dev.latticeruntime.com/slog/v3/sloggers/slogstackdriver"
+	"dev.latticeruntime.com/slog/v3/sloggers/slogtest"
 )
 
 func Example() {
