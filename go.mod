@@ -1,4 +1,4 @@
-module dev.latticeruntime.com/slog/v3
+module github.com/openagent-md/slog/v3
 
 go 1.20
 

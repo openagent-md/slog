@@ -8,9 +8,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/assert"
-	"dev.latticeruntime.com/slog/v3/sloggers/slogtest"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/assert"
+	"github.com/openagent-md/slog/v3/sloggers/slogtest"
 )
 
 func TestStateless(t *testing.T) {

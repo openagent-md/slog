@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	simpleassert "dev.latticeruntime.com/slog/v3/internal/assert"
-	"dev.latticeruntime.com/slog/v3/sloggers/slogtest/assert"
+	simpleassert "github.com/openagent-md/slog/v3/internal/assert"
+	"github.com/openagent-md/slog/v3/sloggers/slogtest/assert"
 )
 
 func TestEqual(t *testing.T) {

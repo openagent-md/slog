@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
-	"dev.latticeruntime.com/slog/v3/sloggers/slogstackdriver"
-	"dev.latticeruntime.com/slog/v3/sloggers/slogtest"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/sloggers/sloghuman"
+	"github.com/openagent-md/slog/v3/sloggers/slogstackdriver"
+	"github.com/openagent-md/slog/v3/sloggers/slogtest"
 )
 
 func Example() {

@@ -1,6 +1,6 @@
 // Package sloghuman contains the slogger
 // that writes logs in a human readable format.
-package sloghuman // import "dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
+package sloghuman // import "github.com/openagent-md/slog/v3/sloggers/sloghuman"
 
 import (
 	"bytes"
@@ -8,9 +8,9 @@ import (
 	"io"
 	"sync"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/entryhuman"
-	"dev.latticeruntime.com/slog/v3/internal/syncwriter"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/entryhuman"
+	"github.com/openagent-md/slog/v3/internal/syncwriter"
 )
 
 // Sink creates a slog.Sink that writes logs in a human

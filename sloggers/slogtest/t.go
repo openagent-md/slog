@@ -3,7 +3,7 @@
 //
 // If imported, then all logs that go through the stdlib's
 // default logger will go through slog.
-package slogtest // import "dev.latticeruntime.com/slog/v3/sloggers/slogtest"
+package slogtest // import "github.com/openagent-md/slog/v3/sloggers/slogtest"
 
 import (
 	"bytes"
@@ -16,9 +16,9 @@ import (
 
 	"golang.org/x/xerrors"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/entryhuman"
-	"dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/entryhuman"
+	"github.com/openagent-md/slog/v3/sloggers/sloghuman"
 )
 
 // Ensure all stdlib logs go through slog.

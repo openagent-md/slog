@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"os"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/sloggers/sloghuman"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/sloggers/sloghuman"
 )
 
 func httpLogHelper(ctx context.Context, status int) {

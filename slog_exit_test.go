@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"dev.latticeruntime.com/slog/v3/internal/assert"
+	"github.com/openagent-md/slog/v3/internal/assert"
 )
 
 func TestExit(t *testing.T) {

@@ -1,5 +1,5 @@
 // Package slogstackdriver contains the slogger for google cloud's stackdriver.
-package slogstackdriver // import "dev.latticeruntime.com/slog/v3/sloggers/slogstackdriver"
+package slogstackdriver // import "github.com/openagent-md/slog/v3/sloggers/slogstackdriver"
 
 import (
 	"context"
@@ -15,8 +15,8 @@ import (
 	"go.opentelemetry.io/otel/trace"
 	logpbtype "google.golang.org/genproto/googleapis/logging/type"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/syncwriter"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/syncwriter"
 )
 
 // Sink creates a slog.Sink configured to write JSON logs

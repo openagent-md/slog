@@ -8,7 +8,7 @@
 // Logger implements Sink as well to allow composition.
 //
 // Implementations of the Sink interface are available in the sloggers subdirectory.
-package slog // import "dev.latticeruntime.com/slog/v3"
+package slog // import "github.com/openagent-md/slog/v3"
 
 import (
 	"context"

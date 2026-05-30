@@ -13,9 +13,9 @@ import (
 	"testing"
 	"time"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/assert"
-	"dev.latticeruntime.com/slog/v3/internal/entryhuman"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/assert"
+	"github.com/openagent-md/slog/v3/internal/entryhuman"
 )
 
 var kt = time.Date(2000, time.February, 5, 4, 4, 4, 4, time.UTC)

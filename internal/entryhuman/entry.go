@@ -21,7 +21,7 @@ import (
 	"golang.org/x/term"
 	"golang.org/x/xerrors"
 
-	"dev.latticeruntime.com/slog/v3"
+	"github.com/openagent-md/slog/v3"
 )
 
 // StripTimestamp strips the timestamp from entry and returns

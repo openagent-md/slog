@@ -3,7 +3,7 @@
 // On failure, every assertion will fatal the test.
 //
 // The name parameter is available in each assertion for easier debugging.
-package assert // import "dev.latticeruntime.com/slog/v3/sloggers/slogtest/assert"
+package assert // import "github.com/openagent-md/slog/v3/sloggers/slogtest/assert"
 
 import (
 	"strings"
@@ -11,9 +11,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"dev.latticeruntime.com/slog/v3"
-	"dev.latticeruntime.com/slog/v3/internal/assert"
-	"dev.latticeruntime.com/slog/v3/sloggers/slogtest"
+	"github.com/openagent-md/slog/v3"
+	"github.com/openagent-md/slog/v3/internal/assert"
+	"github.com/openagent-md/slog/v3/sloggers/slogtest"
 )
 
 // Equal asserts exp == act.
